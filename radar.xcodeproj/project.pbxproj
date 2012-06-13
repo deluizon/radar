@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F9CE7C71586BE9200AF1145 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9CE7C61586BE9200AF1145 /* UIKit.framework */; };
+		9F9CE7C91586BE9200AF1145 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9CE7C81586BE9200AF1145 /* Foundation.framework */; };
+		9F9CE7CB1586BE9200AF1145 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9CE7CA1586BE9200AF1145 /* CoreGraphics.framework */; };
+		9F9CE7D11586BE9200AF1145 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F9CE7CF1586BE9200AF1145 /* InfoPlist.strings */; };
+		9F9CE7D31586BE9200AF1145 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9CE7D21586BE9200AF1145 /* main.m */; };
+		9F9CE7D71586BE9200AF1145 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9CE7D61586BE9200AF1145 /* AppDelegate.m */; };
+		9F9CE7DA1586BE9200AF1145 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9CE7D91586BE9200AF1145 /* ViewController.m */; };
+		9F9CE7DD1586BE9300AF1145 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F9CE7DB1586BE9300AF1145 /* ViewController_iPhone.xib */; };
+		9F9CE7E01586BE9300AF1145 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F9CE7DE1586BE9300AF1145 /* ViewController_iPad.xib */; };
+		9F9CE7E81586BEF400AF1145 /* mainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9CE7E71586BEF300AF1145 /* mainView.m */; };
+		9F9CE7EE1586CBC900AF1145 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9CE7ED1586CBC900AF1145 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F9CE7C21586BE9200AF1145 /* radar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = radar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F9CE7C61586BE9200AF1145 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9F9CE7C81586BE9200AF1145 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9F9CE7CA1586BE9200AF1145 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9F9CE7CE1586BE9200AF1145 /* radar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "radar-Info.plist"; sourceTree = "<group>"; };
+		9F9CE7D01586BE9200AF1145 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9F9CE7D21586BE9200AF1145 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F9CE7D41586BE9200AF1145 /* radar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "radar-Prefix.pch"; sourceTree = "<group>"; };
+		9F9CE7D51586BE9200AF1145 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9F9CE7D61586BE9200AF1145 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9F9CE7D81586BE9200AF1145 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9F9CE7D91586BE9200AF1145 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9F9CE7DC1586BE9300AF1145 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		9F9CE7DF1586BE9300AF1145 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		9F9CE7E61586BEF300AF1145 /* mainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainView.h; sourceTree = "<group>"; };
+		9F9CE7E71586BEF300AF1145 /* mainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainView.m; sourceTree = "<group>"; };
+		9F9CE7ED1586CBC900AF1145 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F9CE7BF1586BE9200AF1145 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F9CE7EE1586CBC900AF1145 /* QuartzCore.framework in Frameworks */,
+				9F9CE7C71586BE9200AF1145 /* UIKit.framework in Frameworks */,
+				9F9CE7C91586BE9200AF1145 /* Foundation.framework in Frameworks */,
+				9F9CE7CB1586BE9200AF1145 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F9CE7B71586BE9200AF1145 = {
+			isa = PBXGroup;
+			children = (
+				9F9CE7ED1586CBC900AF1145 /* QuartzCore.framework */,
+				9F9CE7CC1586BE9200AF1145 /* radar */,
+				9F9CE7C51586BE9200AF1145 /* Frameworks */,
+				9F9CE7C31586BE9200AF1145 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F9CE7C31586BE9200AF1145 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F9CE7C21586BE9200AF1145 /* radar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F9CE7C51586BE9200AF1145 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F9CE7C61586BE9200AF1145 /* UIKit.framework */,
+				9F9CE7C81586BE9200AF1145 /* Foundation.framework */,
+				9F9CE7CA1586BE9200AF1145 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F9CE7CC1586BE9200AF1145 /* radar */ = {
+			isa = PBXGroup;
+			children = (
+				9F9CE7D51586BE9200AF1145 /* AppDelegate.h */,
+				9F9CE7D61586BE9200AF1145 /* AppDelegate.m */,
+				9F9CE7D81586BE9200AF1145 /* ViewController.h */,
+				9F9CE7D91586BE9200AF1145 /* ViewController.m */,
+				9F9CE7E61586BEF300AF1145 /* mainView.h */,
+				9F9CE7E71586BEF300AF1145 /* mainView.m */,
+				9F9CE7DB1586BE9300AF1145 /* ViewController_iPhone.xib */,
+				9F9CE7DE1586BE9300AF1145 /* ViewController_iPad.xib */,
+				9F9CE7CD1586BE9200AF1145 /* Supporting Files */,
+			);
+			path = radar;
+			sourceTree = "<group>";
+		};
+		9F9CE7CD1586BE9200AF1145 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F9CE7CE1586BE9200AF1145 /* radar-Info.plist */,
+				9F9CE7CF1586BE9200AF1145 /* InfoPlist.strings */,
+				9F9CE7D21586BE9200AF1145 /* main.m */,
+				9F9CE7D41586BE9200AF1145 /* radar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F9CE7C11586BE9200AF1145 /* radar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F9CE7E31586BE9300AF1145 /* Build configuration list for PBXNativeTarget "radar" */;
+			buildPhases = (
+				9F9CE7BE1586BE9200AF1145 /* Sources */,
+				9F9CE7BF1586BE9200AF1145 /* Frameworks */,
+				9F9CE7C01586BE9200AF1145 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = radar;
+			productName = radar;
+			productReference = 9F9CE7C21586BE9200AF1145 /* radar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F9CE7B91586BE9200AF1145 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Osaka University";
+			};
+			buildConfigurationList = 9F9CE7BC1586BE9200AF1145 /* Build configuration list for PBXProject "radar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9F9CE7B71586BE9200AF1145;
+			productRefGroup = 9F9CE7C31586BE9200AF1145 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F9CE7C11586BE9200AF1145 /* radar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F9CE7C01586BE9200AF1145 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F9CE7D11586BE9200AF1145 /* InfoPlist.strings in Resources */,
+				9F9CE7DD1586BE9300AF1145 /* ViewController_iPhone.xib in Resources */,
+				9F9CE7E01586BE9300AF1145 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F9CE7BE1586BE9200AF1145 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F9CE7D31586BE9200AF1145 /* main.m in Sources */,
+				9F9CE7D71586BE9200AF1145 /* AppDelegate.m in Sources */,
+				9F9CE7DA1586BE9200AF1145 /* ViewController.m in Sources */,
+				9F9CE7E81586BEF400AF1145 /* mainView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9F9CE7CF1586BE9200AF1145 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F9CE7D01586BE9200AF1145 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9F9CE7DB1586BE9300AF1145 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F9CE7DC1586BE9300AF1145 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		9F9CE7DE1586BE9300AF1145 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F9CE7DF1586BE9300AF1145 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F9CE7E11586BE9300AF1145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F9CE7E21586BE9300AF1145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F9CE7E41586BE9300AF1145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "radar/radar-Prefix.pch";
+				INFOPLIST_FILE = "radar/radar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9F9CE7E51586BE9300AF1145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "radar/radar-Prefix.pch";
+				INFOPLIST_FILE = "radar/radar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F9CE7BC1586BE9200AF1145 /* Build configuration list for PBXProject "radar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F9CE7E11586BE9300AF1145 /* Debug */,
+				9F9CE7E21586BE9300AF1145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F9CE7E31586BE9300AF1145 /* Build configuration list for PBXNativeTarget "radar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F9CE7E41586BE9300AF1145 /* Debug */,
+				9F9CE7E51586BE9300AF1145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F9CE7B91586BE9200AF1145 /* Project object */;
+}
